@@ -1,3 +1,7 @@
+#Integer to Roman
+#https://leetcode.com/problems/integer-to-roman/submissions/
+
+
 def intToRoman(num):
         """
         :type num: int
@@ -27,5 +31,6 @@ def intToRoman(num):
             num=num//10
             
         return roman
-x=intToRoman(1994)
+inp=int(input("enter anumber"))
+x=intToRoman(inp)
 print(x)
