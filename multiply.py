@@ -1,3 +1,7 @@
+# Multiply Strings
+#https://leetcode.com/problems/multiply-strings/submissions/
+
+
 def multiply(num1, num2):
         """
         :type num1: str
