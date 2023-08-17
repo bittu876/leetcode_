@@ -1,5 +1,5 @@
 #Longest Common Prefix
-#https://leetcode.com/problems/longest-common-prefix/submissions/
+#https://leetcode.com/problems/longest-common-prefix/description/
 
 
 def longestCommonPrefix(strs):
