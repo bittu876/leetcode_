@@ -1,5 +1,5 @@
 #Search Insert Position
-#https://leetcode.com/problems/search-insert-position/submissions/
+#https://leetcode.com/problems/search-insert-position/description/
 def searchInsert( nums, target):
     """
     :type nums: List[int]
