@@ -1,5 +1,5 @@
 #Palindrome Number
-#https://leetcode.com/problems/palindrome-number/submissions/
+#https://leetcode.com/problems/palindrome-number/description/
 def isPalindrome(x):
     """
     :type x: int
