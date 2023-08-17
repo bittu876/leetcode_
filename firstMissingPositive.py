@@ -1,6 +1,6 @@
 
 # 41 . First Missing Positive
-# https://leetcode.com/problems/first-missing-positive/submissions/
+# https://leetcode.com/problems/first-missing-positive/description/
 
 def firstMissingPositive(self, nums):
         """
