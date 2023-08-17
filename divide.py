@@ -1,5 +1,5 @@
 #29. Divide Two Integers
-#https://leetcode.com/problems/divide-two-integers/submissions/
+#https://leetcode.com/problems/divide-two-integers/discription/
 
 def divide(dividend, divisor):
         """
