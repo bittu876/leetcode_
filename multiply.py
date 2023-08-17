@@ -1,5 +1,5 @@
 # Multiply Strings
-#https://leetcode.com/problems/multiply-strings/submissions/
+#https://leetcode.com/problems/multiply-strings/description/
 
 
 def multiply(num1, num2):
