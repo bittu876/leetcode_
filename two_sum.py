@@ -1,5 +1,5 @@
 #Two Sum
-#https://leetcode.com/problems/two-sum/submissions/
+#https://leetcode.com/problems/two-sum/description/
 def twoSum(nums,target):
     b=[]
     for i in range(0,len(nums)):
