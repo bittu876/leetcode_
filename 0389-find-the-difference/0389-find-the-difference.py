@@ -6,20 +6,16 @@ class Solution(object):
         :rtype: str
         """
         res = ""
-        if len(s) < len(t):
-            nums1= list(s)
-            nums2 =list(t)
-        else:
-            nums1 = list(t)
-            nums2 = list(s)
+        s=list(s)
+        t = list(t)
         i = 0
-        while i < len(nums1):
-            if nums1[i]  in nums2:
-                nums2.remove(nums1[i])
-                nums1.remove(nums1[i])   
+        while i < len(s):
+            if s[i]  in t:
+                t.remove(s[i])
+                s.remove(s[i])   
                 i = i -1
             i = i + 1
-        res = nums1 + nums2
+        res = s + t
         ref= "".join(res)
         return ref
             
