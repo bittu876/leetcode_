@@ -14,13 +14,12 @@ class Solution(object):
                 res += 1
             i = i+1 
         for j in range(i-1, -1, -1):
-            x= s[j]
-            if x.isdigit():
-                res //= int(x)
+            if s[j].isdigit():
+                res //= int(s[j])
                 k %= res
             else:
                 if k == 0 or k == res:
-                    return x
+                    return s[j]
                 res -= 1
     
         
