@@ -10,10 +10,8 @@ class Solution(object):
             res += i
         low = 0
         high = len(res)
-        print(res)
         while low < high:
             mid = (low + high)//2
-            print(mid)
             if res[mid] == target:
                 return True
             elif res[mid] < target:
