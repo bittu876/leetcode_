@@ -4,7 +4,6 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
-        ref = [["" for _ in range(len(matrix[0]))] for _ in range(len(matrix))]
         for i in range(len(matrix)):
             for j in range(len(matrix[i])):
                 if matrix[i][j] == 0:
