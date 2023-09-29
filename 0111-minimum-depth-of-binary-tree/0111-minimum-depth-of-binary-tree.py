@@ -11,7 +11,6 @@ class Solution(object):
         :rtype: int
         """
         def check(node):
-            if node != None:
                 if node.left == None and node.right == None:
                     return 1
                 elif node.left == None and node.right != None:
@@ -20,6 +19,6 @@ class Solution(object):
                     return check(node.left)+1
                 else:
                     return min(check(node.right) , check(node.left))+1
-            else:
-                return 0
+        if root == None:
+            return 0
         return check(root)
