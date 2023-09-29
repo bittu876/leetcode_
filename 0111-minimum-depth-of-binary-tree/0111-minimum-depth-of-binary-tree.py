@@ -21,4 +21,6 @@ class Solution(object):
                     return min(check(node.right) , check(node.left))+1
         if root == None:
             return 0
+        if root.left == None and root.right == None:
+            return 1
         return check(root)
