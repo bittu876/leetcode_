@@ -12,11 +12,9 @@ class Solution(object):
         :rtype: bool
         """
         def check(node,sum1,targetSum):
-            res = False
             if node.left == None and node.right == None:               
                 if sum1+node.val == targetSum:
-                    res =  True
-                    return res         
+                    return True         
             elif node.left == None and node.right != None:
                 return check(node.right,sum1+node.val,targetSum)
             elif node.left != None and node.right == None:
