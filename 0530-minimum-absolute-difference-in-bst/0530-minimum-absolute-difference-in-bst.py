@@ -18,7 +18,7 @@ class Solution(object):
             pre(node.left)
             pre(node.right)
             return res
-        ref = pre(root)
+        pre(root)
         min_dis = 999999
         res.sort()
         n = len(res)
