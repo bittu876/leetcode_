@@ -20,9 +20,9 @@ class Solution(object):
             return res
         ref = pre(root)
         min_dis = 999999
-        for i in range(len(res)):
-            for j in range(i+1, len(res)):
-                if abs(res[i] - res[j]) < min_dis:
-                    min_dis = abs(res[i] - res[j])
+        res.sort()
+        n = len(res)
+        for i in range(n-1):
+            if abs(res[i] - res [i+1]) < min_dis:
+                min_dis = abs(res[i] - res [i+1])
         return min_dis
-        
